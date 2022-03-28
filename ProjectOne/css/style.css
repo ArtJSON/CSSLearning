@@ -47,17 +47,17 @@ body {
   ); /* line at the bottom of header */
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
 
-.logo {
+.header__logo {
   height: 4rem;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   top: 43%;
   left: 50%;
@@ -73,7 +73,7 @@ body {
   margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -84,7 +84,7 @@ body {
   animation-timing-function: ease-in-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
 
   font-size: 2rem;
@@ -158,7 +158,7 @@ body {
   transform: translateY(-0.1rem);
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
 }
@@ -177,7 +177,7 @@ body {
   transition: 0.4s;
 }
 
-.btn-white::after {
+.btn--white::after {
   background-color: #fff;
   color: #777;
 }
@@ -187,7 +187,7 @@ body {
   opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
   animation-name: moveInButton;
   animation-delay: 0.3s;
   animation-duration: 0.5s;
